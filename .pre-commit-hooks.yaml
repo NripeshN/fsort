@@ -1,0 +1,6 @@
+- id: fsort
+  name: fsort
+  entry: fsort
+  description: 'Bring a sense of uniformity and structure to the code files by sorting various Python declarations.'
+  language: python
+  types: [python]
