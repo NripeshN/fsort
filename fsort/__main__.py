@@ -1,9 +1,9 @@
 import sys
 import argparse
 
-from .formatters import FunctionOrderingFormatter
+from .formatters import fsort
 
-FORMATTERS = (FunctionOrderingFormatter,)
+FORMATTERS = (fsort,)
 
 
 def parse_args() -> argparse.Namespace:
